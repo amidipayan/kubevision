@@ -10,15 +10,7 @@ KubeVision is a specialized IDE designed for **Incident Response**, **Security A
 
 ---
 
-## ✨ Features at a Glance
-
-* **🧠 SRE Intelligence:** Automatically calculates a **Reliability Risk Index (RRI)** and **Change Safety Score** for your services.
-* **🕸️ X-Ray Topology:** Generates a semantic map of your cluster (Ingress → Service → Pod → PVC) to visualize traffic and data flow.
-* **🚢 Helm Dashboard:** A comprehensive "mission control" for Helm releases with real-time health grades (A-F), drift detection, and upgrade risk assessments.
-* **🔐 RBAC Matrix:** Collapses thousands of complex permissions into a human-readable subject map, instantly identifying Cluster Admins.
-* **🚀 Informer-Backed:** Sub-millisecond UI response times powered by a local K8s Informer cache.
-
----
+## ✨ Features at a Glance :- 
 
 ## 📸 Guided Tour
 
