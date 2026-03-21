@@ -1,0 +1,47 @@
+version: 2
+project_name: kubevision
+
+before:
+  hooks:
+    - go mod tidy
+
+builds:
+  - id: "kubevision"
+   
+    main: ./cmd/kubevision/main.go
+    binary: kubevision
+    env:
+      - CGO_ENABLED=0 
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm64
+    
+
+    flags:
+      - -trimpath 
+    ldflags:
+      - -s -w    
+      - -X main.version={{.Version}} 
+
+archives:
+  - format: tar.gz
+   
+    format_overrides:
+      - goos: windows
+        format: zip
+    name_template: "{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}"
+
+checksum:
+  name_template: 'checksums.txt'
+
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+      - 'Merge pull request'

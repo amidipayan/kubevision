@@ -1,0 +1,38 @@
+# Binaries
+dist/
+bin/
+kubevision
+kubevision.exe
+
+# Build artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go
+bin/
+pkg/
+*.test
+*.out
+
+# Logs
+*.log
+kubevision-debug.log
+*.txt
+logs-*
+
+# IDEs
+.vscode/
+
+# TUI Temporary Files
+kubevision-edit-*.yaml
+helm-edit-*.yaml
+*.yaml.tmp
+
+# --- GoReleaser Artifacts ---
+dist/                # Ignores the entire build output folder
+*.tar.gz             # Ignores any compressed archives in root
+*.zip                # Ignores Windows archives in root
+checksums.txt        # Ignores the checksum file if moved out of dist/
+metadata.json        # Ignores the build metadata file
