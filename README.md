@@ -13,15 +13,23 @@ Unlike standard resource viewers, KubeVision treats Kubernetes data as actionabl
 
 ## ⚡ Core Capabilities
 
-* **Live Observability:** Sub-second container status tracking and integrated heatmaps powered by the `metrics.k8s.io` API without leaving your keyboard.
-* **Automated Reliability (SRE):** Built-in heuristic SRE scoring that calculates weighted health metrics based on production best practices.
-* **Helm Forensics:** A complete command center for Helm. Track drift intelligence, evaluate security postures (A-F grading), and run predictive upgrade impact assessments.
-* **Fail-Safe Operations:** A proactive "Blast Radius" deletion engine with a "Safe Mode" confirmation prevents catastrophic manual errors.
-* **Deep Diagnostics & Streaming:** High-performance multi-pod log aggregation, timestamp-synchronized viewing, and a unified cluster event timeline via the core Event API.
-* **Native Debugging Suite:** Instant, context-aware shell access leveraging native `/exec` subresources. Includes advanced SRE debugging via **Ephemeral Containers** for distroless images, node-level privileged debug shells, and an integrated Port Forward manager.
-* **Configuration Drift Detection:** High-fidelity, side-by-side manifest comparisons to immediately detect stealthy 'kubectl' overrides against your desired state.
-* **Advanced CRD & API Discovery:** Instantly switch contexts with fuzzy-search namespace picking. Features an advanced API discovery layer powered by the Kubernetes `Discovery API` and `dynamic.DynamicClient` to seamlessly map, fetch, and interact with any Custom Resource Definition (`apiextensions.k8s.io`).
-* **Extensible Architecture:** Map custom shortcuts to any CLI command via a flexible YAML plugin system.
+* 🔭 **Live Observability:** Sub-second container status tracking and integrated heatmaps powered by the `metrics.k8s.io` API without leaving your keyboard.
+
+* 🤖 **Automated Reliability (SRE):** Built-in heuristic SRE scoring that calculates weighted health metrics based on production best practices.
+
+* ⚓ **Helm Forensics:** A complete command center for Helm. Track drift intelligence, evaluate security postures (A-F grading), and run predictive upgrade impact assessments.
+
+* 🛡️ **Fail-Safe Operations:** A proactive "Blast Radius" deletion engine with a "Safe Mode" confirmation prevents catastrophic manual errors.
+
+* 📡 **Deep Diagnostics & Streaming:** High-performance multi-pod log aggregation, timestamp-synchronized viewing, and a unified cluster event timeline via the core Event API.
+
+* 💻 **Native Debugging Suite:** Instant, context-aware shell access leveraging native `/exec` subresources. Includes advanced SRE debugging via **Ephemeral Containers** for distroless images, node-level privileged debug shells, and an integrated Port Forward manager.
+
+* 🧬 **Configuration Drift Detection:** High-fidelity, side-by-side manifest comparisons to immediately detect stealthy 'kubectl' overrides against your desired state.
+
+* 🔍 **Advanced CRD & API Discovery:** Instantly switch contexts with fuzzy-search namespace picking. Features an advanced API discovery layer to seamlessly map, fetch, and interact with any Custom Resource Definition.
+
+* 🧩 **Extensible Architecture:** Map custom shortcuts to any CLI command via a flexible YAML plugin system.
 
 ---
 
