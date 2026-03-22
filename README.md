@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🛡️ KubeVision
 
 **The High-Fidelity SRE Cockpit & Kubernetes Terminal IDE.**
@@ -5,9 +7,13 @@
 ![License](https://img.shields.io/github/license/amidipayan/kubevision)
 ![Version](https://img.shields.io/badge/version-v1.0.0-blue)
 
-**KubeVision** is a specialized, high-performance terminal IDE designed explicitly for **Incident Response**, **Security Auditing**, and **Blast Radius Analysis**. 
+</div>
 
-Unlike standard resource viewers, KubeVision treats Kubernetes data as actionable intelligence. It provides real-time reliability scoring, structural topology graphing, and the most comprehensive deep-dive Helm forensics available in the terminal alongwith all the k8s IDE features.
+---
+
+🚀 **KubeVision** is a specialized, high-performance terminal IDE designed explicitly for **Incident Response**, **Security Auditing**, and **Blast Radius Analysis**.
+
+🧠 Unlike standard resource viewers, KubeVision treats Kubernetes data as actionable intelligence. It provides real-time reliability scoring, structural topology graphing, and the most comprehensive deep-dive Helm forensics available in the terminal alongwith all the k8s IDE features.
 
 ---
 
