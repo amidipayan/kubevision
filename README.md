@@ -41,81 +41,103 @@
 
 ## 📸 Guided Tour
 
-### 📦 Pod Screen :- Real-time workload observability featuring integrated live-resource heatmaps and sub-second container status tracking.
+### 📦 Pod Screen
+Real-time workload observability featuring integrated live-resource heatmaps and sub-second container status tracking.
 ![pod screen](./assets/podscreen.png)
 
-### 🗂️ namespace picker :- A high-velocity context switcher with fuzzy-search to navigate complex, multi-tenant clusters instantly.
+### 🗂️ Namespace Picker
+A high-velocity context switcher with fuzzy-search to navigate complex, multi-tenant clusters instantly.
 ![namespace picker](./assets/namespacepicker.png)
 
-### 🚨 Event viewer :- A unified streaming timeline of cluster events with intelligent severity highlighting and object-reference mapping.
+### 🚨 Event Viewer
+A unified streaming timeline of cluster events with intelligent severity highlighting and object-reference mapping.
 ![event viewer](./assets/eventviewer.png)
 
-### 🧬 Diff :- High-fidelity, side-by-side manifest comparisons to detect configuration drift.
+### 🧬 Diff
+High-fidelity, side-by-side manifest comparisons to detect configuration drift.
 ![Diff Source](./assets/DiffSource.png)
 ![Diff Screen](./assets/Diffscreen.png)
 
-### 🕵️ Sre Discovery Picker :- An advanced API discovery layer that allows for rapid jumping between native resources and custom CRDs.
+### 🕵️ SRE Discovery Picker
+An advanced API discovery layer that allows for rapid jumping between native resources and custom CRDs.
 ![sre discovery picker](./assets/srediscoverypicker.png)
 
-### 🛠️ Sre Debug :- Integrated diagnostic mode that provides shell with tools for actionable remediation paths.
+### 🛠️ SRE Debug
+Integrated diagnostic mode that provides shell with tools for actionable remediation paths.
 ![sre debug](./assets/sredebug.png)
 
-### 📜 Log Viewer :- High-performance log aggregator with multi-pod streaming, integrated search, and timestamp-synchronized viewing.
+### 📜 Log Viewer
+High-performance log aggregator with multi-pod streaming, integrated search, and timestamp-synchronized viewing.
 ![log viewer](./assets/logviewer.png)
 
-### 🩺 Service Heuristic SRE :- Automated reliability auditing that calculates a weighted Health Score using SRE best practices.
+### 🩺 Service Heuristic SRE
+Automated reliability auditing that calculates a weighted Health Score using SRE best practices.
 ![Service Heuristic SRE](./assets/ServiceHeuristicSRE.png)
 ![Service Heuristic SRE](./assets/ServiceHeuristic1SRE.png)
 ![Service Heuristic SRE](./assets/ServiceHeuristic2SRE.png)
 
-### ⚓ Helm View :- A centralized dashboard for managing the lifecycle of Helm releases with real-time health-status correlation.
+### ⚓ Helm View
+A centralized dashboard for managing the lifecycle of Helm releases with real-time health-status correlation.
 ![Helm](./assets/helm.png)
 
-### 🎛️ Helm Dashboard :- A comprehensive SRE command center for releases, integrating history, security, and drift intelligence into one view.
+### 🎛️ Helm Dashboard
+A comprehensive SRE command center for releases, integrating history, security, and drift intelligence into one view.
 ![Helm Dashboard](./assets/helmdashboard.png)
 
-### 🔄 Helm Upgrade :- Predictive upgrade assessments that scan for breaking changes and resource-level impact before deployment.
+### 🔄 Helm Upgrade
+Predictive upgrade assessments that scan for breaking changes and resource-level impact before deployment.
 ![Helm Upgrade](./assets/helmupgrade.png)
 ![Helm Upgraded](./assets/helmupgraded.png)
 
-### 🕰️ Helm History :- Deep-dive forensic timeline of release revisions.
+### 🕰️ Helm History
+Deep-dive forensic timeline of release revisions.
 ![Helm History](./assets/helmhistory.png)
 
-### ⚖️ Helm Diff :- Visual manifest delta analysis between installed releases and local chart changes to prevent "blind" deployments.
+### ⚖️ Helm Diff
+Visual manifest delta analysis between installed releases and local chart changes to prevent "blind" deployments.
 ![Helm Diff](./assets/helmdiff.png)
 
-### ⚠️ Helm Drift :- A real-time drift intelligence engine that identifies manual 'kubectl' overrides against the desired Helm state.
+### ⚠️ Helm Drift
+A real-time drift intelligence engine that identifies manual 'kubectl' overrides against the desired Helm state.
 ![Helm Drift](./assets/helmdrift.png)
 
-### 🔒 Helm Security :- Automated security posture grading (A-F) that scans for RBAC over-privilege and container hardening gaps.
+### 🔒 Helm Security
+Automated security posture grading (A-F) that scans for RBAC over-privilege and container hardening gaps.
 ![Helm Security](./assets/helmsecurity.png)
 ![Helm Security Details](./assets/helmsecuritydetails.png)
 ![Helm Security Details](./assets/helmsecuritydetails1.png)
 
-### ⚙️ Helm SRE :- Specialized heuristic analysis that evaluates the reliability and blast radius of Helm-managed workloads.
+### ⚙️ Helm SRE
+Specialized heuristic analysis that evaluates the reliability and blast radius of Helm-managed workloads.
 ![Helm SRE](./assets/helmSRE.png)
 
-### 🖥️ node :- A infrastructure centric view with real-time CPU/Memory saturation bars and other features.
+### 🖥️ Node
+A infrastructure centric view with real-time CPU/Memory saturation bars and other features.
 ![node](./assets/node.png)
 
-### 💻 Shell :- Instant, context-aware terminal access to containers and node-level debug shells without leaving the IDE.
+### 💻 Shell
+Instant, context-aware terminal access to containers and node-level debug shells without leaving the IDE.
 ![Shell](./assets/shell.png)
 
-### 🗑️ Delete Resource :- A fail-safe deletion engine with "Safe Mode" confirmation and proactive "Blast Radius" impact analysis.
+### 🗑️ Delete Resource
+A fail-safe deletion engine with "Safe Mode" confirmation and proactive "Blast Radius" impact analysis.
 ![Delete](./assets/delete.png)
 ![Delete Resource](./assets/delete1.png)
 ![Delete Popup](./assets/deletepopup.png)
 ![Delete Confirm](./assets/deleteconfirm.png)
 ![Deleted](./assets/deleted.png)
 
-### 📑 Tab to view K8s resources :- A multi-tabbed interface for seamless navigation between different Kubernetes resource categories.
+### 📑 Tab to view K8s resources
+A multi-tabbed interface for seamless navigation between different Kubernetes resource categories.
 ![K8s Resources](./assets/tab.png)
 
-### 🕸️ X-Ray Topology :- (This requires improvements I think , I need to work on this to improve further)
+### 🕸️ X-Ray Topology
+*(This requires improvements I think, I need to work on this to improve further)*
 ![X-Ray Topology](./assets/xray.png)
 ![X-Ray Topology](./assets/xray1.png)
 
-### 🔌 Port Forward :- Port forward capabilities with Integrated port forward manager.
+### 🔌 Port Forward
+Port forward capabilities with Integrated port forward manager.
 ![Port Forward](./assets/portforward1.png)
 ![Port Forward](./assets/portforward2.png)
 ![Port Forward Mgr](./assets/portforwardmgr.png)
@@ -147,7 +169,7 @@ Requires **Go 1.21+**.
 
 ```bash
 # Clone the repository
-git clone [https://github.com/amidipayan/kubevision](https://github.com/amidipayan/kubevision)
+git clone https://github.com/amidipayan/kubevision
 cd kubevision
 
 # Build the production-ready binary
