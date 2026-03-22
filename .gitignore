@@ -31,8 +31,8 @@ helm-edit-*.yaml
 *.yaml.tmp
 
 # --- GoReleaser Artifacts ---
-dist/                # Ignores the entire build output folder
-*.tar.gz             # Ignores any compressed archives in root
-*.zip                # Ignores Windows archives in root
-checksums.txt        # Ignores the checksum file if moved out of dist/
-metadata.json        # Ignores the build metadata file
+dist/                
+*.tar.gz            
+*.zip               
+checksums.txt        
+metadata.json        
