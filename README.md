@@ -43,104 +43,104 @@
 
 ### 📦 Pod Screen
 Real-time workload observability featuring integrated live-resource heatmaps and sub-second container status tracking.
-![pod screen](./assets/podscreen.png)
+<img src="./assets/podscreen.png" width="1200" alt="Pod Screen">
 
 ### 🗂️ Namespace Picker
 A high-velocity context switcher with fuzzy-search to navigate complex, multi-tenant clusters instantly.
-![namespace picker](./assets/namespacepicker.png)
+<img src="./assets/namespacepicker.png" width="1200" alt="Namespace Picker">
 
 ### 🚨 Event Viewer
 A unified streaming timeline of cluster events with intelligent severity highlighting and object-reference mapping.
-![event viewer](./assets/eventviewer.png)
+<img src="./assets/eventviewer.png" width="1200" alt="Event Viewer">
 
 ### 🧬 Diff
 High-fidelity, side-by-side manifest comparisons to detect configuration drift.
-![Diff Source](./assets/DiffSource.png)
-![Diff Screen](./assets/Diffscreen.png)
+<img src="./assets/DiffSource.png" width="1200" alt="Diff Source">
+<img src="./assets/Diffscreen.png" width="1200" alt="Diff Screen">
 
 ### 🕵️ SRE Discovery Picker
 An advanced API discovery layer that allows for rapid jumping between native resources and custom CRDs.
-![sre discovery picker](./assets/srediscoverypicker.png)
+<img src="./assets/srediscoverypicker.png" width="1200" alt="SRE Discovery Picker">
 
 ### 🛠️ SRE Debug
 Integrated diagnostic mode that provides shell with tools for actionable remediation paths.
-![sre debug](./assets/sredebug.png)
+<img src="./assets/sredebug.png" width="1200" alt="SRE Debug">
 
 ### 📜 Log Viewer
 High-performance log aggregator with multi-pod streaming, integrated search, and timestamp-synchronized viewing.
-![log viewer](./assets/logviewer.png)
+<img src="./assets/logviewer.png" width="1200" alt="Log Viewer">
 
 ### 🩺 Service Heuristic SRE
 Automated reliability auditing that calculates a weighted Health Score using SRE best practices.
-![Service Heuristic SRE](./assets/ServiceHeuristicSRE.png)
-![Service Heuristic SRE](./assets/ServiceHeuristic1SRE.png)
-![Service Heuristic SRE](./assets/ServiceHeuristic2SRE.png)
+<img src="./assets/ServiceHeuristicSRE.png" width="1200" alt="Service Heuristic SRE">
+<img src="./assets/ServiceHeuristic1SRE.png" width="1200" alt="Service Heuristic SRE">
+<img src="./assets/ServiceHeuristic2SRE.png" width="1200" alt="Service Heuristic SRE">
 
 ### ⚓ Helm View
 A centralized dashboard for managing the lifecycle of Helm releases with real-time health-status correlation.
-![Helm](./assets/helm.png)
+<img src="./assets/helm.png" width="1200" alt="Helm View">
 
 ### 🎛️ Helm Dashboard
 A comprehensive SRE command center for releases, integrating history, security, and drift intelligence into one view.
-![Helm Dashboard](./assets/helmdashboard.png)
+<img src="./assets/helmdashboard.png" width="1200" alt="Helm Dashboard">
 
 ### 🔄 Helm Upgrade
 Predictive upgrade assessments that scan for breaking changes and resource-level impact before deployment.
-![Helm Upgrade](./assets/helmupgrade.png)
-![Helm Upgraded](./assets/helmupgraded.png)
+<img src="./assets/helmupgrade.png" width="1200" alt="Helm Upgrade">
+<img src="./assets/helmupgraded.png" width="1200" alt="Helm Upgraded">
 
 ### 🕰️ Helm History
 Deep-dive forensic timeline of release revisions.
-![Helm History](./assets/helmhistory.png)
+<img src="./assets/helmhistory.png" width="1200" alt="Helm History">
 
 ### ⚖️ Helm Diff
 Visual manifest delta analysis between installed releases and local chart changes to prevent "blind" deployments.
-![Helm Diff](./assets/helmdiff.png)
+<img src="./assets/helmdiff.png" width="1200" alt="Helm Diff">
 
 ### ⚠️ Helm Drift
 A real-time drift intelligence engine that identifies manual 'kubectl' overrides against the desired Helm state.
-![Helm Drift](./assets/helmdrift.png)
+<img src="./assets/helmdrift.png" width="1200" alt="Helm Drift">
 
 ### 🔒 Helm Security
 Automated security posture grading (A-F) that scans for RBAC over-privilege and container hardening gaps.
-![Helm Security](./assets/helmsecurity.png)
-![Helm Security Details](./assets/helmsecuritydetails.png)
-![Helm Security Details](./assets/helmsecuritydetails1.png)
+<img src="./assets/helmsecurity.png" width="1200" alt="Helm Security">
+<img src="./assets/helmsecuritydetails.png" width="1200" alt="Helm Security Details">
+<img src="./assets/helmsecuritydetails1.png" width="1200" alt="Helm Security Details">
 
 ### ⚙️ Helm SRE
 Specialized heuristic analysis that evaluates the reliability and blast radius of Helm-managed workloads.
-![Helm SRE](./assets/helmSRE.png)
+<img src="./assets/helmSRE.png" width="1200" alt="Helm SRE">
 
 ### 🖥️ Node
 A infrastructure centric view with real-time CPU/Memory saturation bars and other features.
-![node](./assets/node.png)
+<img src="./assets/node.png" width="1200" alt="Node View">
 
 ### 💻 Shell
 Instant, context-aware terminal access to containers and node-level debug shells without leaving the IDE.
-![Shell](./assets/shell.png)
+<img src="./assets/shell.png" width="1200" alt="Shell">
 
 ### 🗑️ Delete Resource
 A fail-safe deletion engine with "Safe Mode" confirmation and proactive "Blast Radius" impact analysis.
-![Delete](./assets/delete.png)
-![Delete Resource](./assets/delete1.png)
-![Delete Popup](./assets/deletepopup.png)
-![Delete Confirm](./assets/deleteconfirm.png)
-![Deleted](./assets/deleted.png)
+<img src="./assets/delete.png" width="1200" alt="Delete">
+<img src="./assets/delete1.png" width="1200" alt="Delete Resource">
+<img src="./assets/deletepopup.png" width="1200" alt="Delete Popup">
+<img src="./assets/deleteconfirm.png" width="1200" alt="Delete Confirm">
+<img src="./assets/deleted.png" width="1200" alt="Deleted">
 
 ### 📑 Tab to view K8s resources
 A multi-tabbed interface for seamless navigation between different Kubernetes resource categories.
-![K8s Resources](./assets/tab.png)
+<img src="./assets/tab.png" width="1200" alt="K8s Resources Tab">
 
 ### 🕸️ X-Ray Topology
 *(This requires improvements I think, I need to work on this to improve further)*
-![X-Ray Topology](./assets/xray.png)
-![X-Ray Topology](./assets/xray1.png)
+<img src="./assets/xray.png" width="1200" alt="X-Ray Topology">
+<img src="./assets/xray1.png" width="1200" alt="X-Ray Topology">
 
 ### 🔌 Port Forward
 Port forward capabilities with Integrated port forward manager.
-![Port Forward](./assets/portforward1.png)
-![Port Forward](./assets/portforward2.png)
-![Port Forward Mgr](./assets/portforwardmgr.png)
+<img src="./assets/portforward1.png" width="1200" alt="Port Forward">
+<img src="./assets/portforward2.png" width="1200" alt="Port Forward">
+<img src="./assets/portforwardmgr.png" width="1200" alt="Port Forward Manager">
 
 ### ✨ There are other features that this ide supports such as custom plugins , crd's , context switch to name a few..
 
