@@ -19,7 +19,7 @@
 
 ## ⚡ Core Capabilities
 
-* 🔭 **Live Observability:** Sub-second container status tracking and integrated heatmaps powered by the without leaving your keyboard.
+* 🔭 **Live Observability:** Sub-second container status tracking and integrated heatmaps without leaving your keyboard.
 
 * 🤖 **Automated Reliability (SRE):** Built-in heuristic SRE scoring that calculates weighted health metrics based on production best practices.
 
@@ -29,7 +29,7 @@
 
 * 📡 **Deep Diagnostics & Streaming:** High-performance multi-pod log aggregation, timestamp-synchronized viewing, and a unified cluster event timeline via the core Event API.
 
-* 💻 **Native Debugging Suite:** Instant, context-aware shell access leveraging native subresources. Includes advanced SRE debugging  and an integrated Port Forward manager.
+* 💻 **Native Debugging Suite:** Instant, context-aware shell access leveraging native subresources. Includes advanced SRE debugging and an integrated Port Forward manager.
 
 * 🧬 **Configuration Diff Detection:** High-fidelity, side-by-side manifest comparisons to immediately detect stealthy 'kubectl' overrides against your desired state.
 
@@ -176,6 +176,8 @@ cd kubevision
 
 # Build the production-ready binary
 go build -ldflags="-s -w" -o kubevision ./cmd/kubevision/main.go
+
+---
 
 🔌 Plugins
 Extend KubeVision with your own operational tools. Map custom shortcuts to any CLI command in ~/.kubevision/plugins.yaml.
