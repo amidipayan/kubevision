@@ -134,7 +134,7 @@ A multi-tabbed interface for seamless navigation between different Kubernetes re
 <img src="./assets/tab.png" width="1200" alt="K8s Resources Tab">
 
 ### 🕸️ X-Ray Topology
-*(This requires improvements I think, I need to work on this to improve further)*
+This provides tree view of resources.
 <img src="./assets/xray.png" width="1200" alt="X-Ray Topology">
 <img src="./assets/xray1.png" width="1200" alt="X-Ray Topology">
 
