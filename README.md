@@ -69,6 +69,7 @@ Integrated diagnostic mode that provides shell with tools for actionable remedia
 ### 📜 Log Viewer
 High-performance log aggregator with multi-pod streaming, integrated search, and timestamp-synchronized viewing.
 <img src="./assets/logviewer.png" width="1200" alt="Log Viewer">
+<img src="./assets/multipodlogviewer.png" width="1200" alt="Log Viewer">
 
 ### 🩺 Service Heuristic SRE
 Automated reliability auditing that calculates a weighted Health Score using SRE best practices.
