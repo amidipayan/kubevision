@@ -127,6 +127,7 @@ A fail-safe deletion engine with "Safe Mode" confirmation and proactive "Blast R
 <img src="./assets/deletepopup.png" width="1200" alt="Delete Popup">
 <img src="./assets/deleteconfirm.png" width="1200" alt="Delete Confirm">
 <img src="./assets/deleted.png" width="1200" alt="Deleted">
+<img src="./assets/deleted1.png" width="1200" alt="Deleted">
 
 ### 📑 Tab to view K8s resources
 A multi-tabbed interface for seamless navigation between different Kubernetes resource categories.
