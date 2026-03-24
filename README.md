@@ -179,9 +179,9 @@ go build -ldflags="-s -w" -o kubevision ./cmd/kubevision/main.go
 
 ---
 
-## 🔌 Plugins
+ 🔌 Plugins
 Extend KubeVision with your own operational tools. Map custom shortcuts to any CLI command in ~/.kubevision/plugins.yaml.
-
+```bash
 Example
 
 plugins:
@@ -214,7 +214,7 @@ plugins:
       description: "Root Debug Shell (nsenter)"
       command: "kubectl debug node/{{name}} -it --image=nicolaka/netshoot -- chroot /host"
       background: false
-
+      ```
 
 ⚖️ License
 Distributed under the MIT License. See LICENSE for more information.
