@@ -5,7 +5,7 @@
 **The High-Fidelity SRE Cockpit & Kubernetes Terminal IDE.**
 
 ![License](https://img.shields.io/github/license/amidipayan/kubevision)
-![Version](https://img.shields.io/badge/version-v1.0.0-blue)
+![Version](https://img.shields.io/badge/version-v1.0.1-blue)
 
 </div>
 
@@ -177,8 +177,14 @@ cd kubevision
 # Build the production-ready binary
 go build -ldflags="-s -w" -o kubevision ./cmd/kubevision/main.go
 ```
+### ⚡ Option 1: Quick Install (Recommended)
+If you have **Go 1.21+** installed, you can install KubeVision directly to your `$GOPATH/bin`:
 
- 🔌 Plugins
+```bash
+go install [github.com/amidipayan/kubevision/cmd/kubevision@latest](https://github.com/amidipayan/kubevision/cmd/kubevision@latest)
+```
+
+`## 🔌 Plugins`
 Extend KubeVision with your own operational tools. Map custom shortcuts to any CLI command in ~/.kubevision/plugins.yaml.
 ```bash
 Example
@@ -220,3 +226,5 @@ Distributed under the MIT License. See LICENSE for more information.
 
 🤝 Contributing
 Contributions are what make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+**Note:** KubeVision requires a valid `~/.kube/config`. If `kubectl` works on your machine, KubeVision will too!
