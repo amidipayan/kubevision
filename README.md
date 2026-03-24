@@ -181,10 +181,12 @@ go build -ldflags="-s -w" -o kubevision ./cmd/kubevision/main.go
 If you have **Go 1.21+** installed, you can install KubeVision directly to your `$GOPATH/bin`:
 
 ```bash
-go install https://github.com/amidipayan/kubevision/cmd/kubevision@latest 
+go install github.com/amidipayan/kubevision/cmd/kubevision@latest 
 ```
 
 `🔌 Plugins`
+
+
 Extend KubeVision with your own operational tools. Map custom shortcuts to any CLI command in ~/.kubevision/plugins.yaml.
 ```bash
 Example
