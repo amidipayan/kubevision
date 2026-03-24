@@ -214,7 +214,6 @@ plugins:
       command: "kubectl debug node/{{name}} -it --image=nicolaka/netshoot -- chroot /host"
       background: false
          
----
 
 ⚖️ License
 Distributed under the MIT License. See LICENSE for more information.
